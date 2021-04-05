@@ -6,4 +6,4 @@ This benchmark test compare the latency numbers of two approaches:
 
 2- REUSE CONNECTIONS: We create a connection once and reuse the same connection for all commands. Here, we record the latency of `ping()` operation. See the `benchReuse()` method.
 
-See [the blog post](https://blog.upstash.com/redis-connection-benchmark).
+See [the blog post](https://blog.upstash.com/serverless-database-connections).
